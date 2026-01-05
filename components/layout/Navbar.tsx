@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { typography } from '@/styles/theme';
+import { typography } from '../../styles/theme';
 
 export const Navbar = () => {
   const pathname = usePathname();

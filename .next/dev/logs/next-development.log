@@ -1,0 +1,273 @@
+[00:00:03.367] Server  LOG     
+[00:00:03.367] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:03.368] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:03.370] Server  LOG       	- include was updated to add '.next/types/**/*.ts'
+[00:00:03.371] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:03.372] Server  LOG       	- plugins was updated to add { name: 'next' }
+[00:00:03.372] Server  LOG     
+[00:00:04.118] Server  LOG     ✓ Ready in 2.6s
+[00:00:06.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.777] Server  ERROR   ⨯ ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:36.405] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:36.953] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:36.993] Server  ERROR   ⨯ ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:37.658] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:37.879] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:37.879] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:40.947] Server  ERROR   ⨯ ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:41.390] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:41.506] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:41.613] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.068] Server  ERROR   ⨯ ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.616] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:44.766] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.877] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:53.166] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.335] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:53.335] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:54.830] Browser ERROR   uncaughtError: Error: ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:54.963] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:55.065] Browser ERROR   ./app/contact/page.tsx:1:1
+Module not found: Can't resolve '@/components/ui/ContactForm'
+> 1 | import { ContactForm } from '@/components/ui/ContactForm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Contact() {
+  4 |   return (
+
+Import map: aliased to relative './components/components/ui/ContactForm' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:05.000] Server  LOG     ✓ Compiled in 2.8s
+[00:11:06.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:12.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:45.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
