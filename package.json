@@ -4,6 +4,8 @@
   "description": "> **Status:** Phase 1 — Technical Foundation  \r > **Project:** EdTech / Metaverse Training Platform  \r > **Repository:** `mehr-platform-web`",
   "main": "index.js",
   "scripts": {
+    "lint": "next lint"  
+}
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
