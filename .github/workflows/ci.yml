@@ -25,14 +25,11 @@ jobs:
       # Install dependencies
       - name: Install dependencies
         run: npm ci
-        working-directory: ./mehr-platform-web
 
       # Run ESLint (show errors only)
       - name: Run ESLint
         run: npm run lint
-        working-directory: ./mehr-platform-web
 
       # Build the project
       - name: Build project
         run: npm run build
-        working-directory: ./mehr-platform-web
