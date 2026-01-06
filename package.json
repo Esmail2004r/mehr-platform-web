@@ -4,12 +4,13 @@
   "description": "> **Status:** Phase 1 — Technical Foundation  \r > **Project:** EdTech / Metaverse Training Platform  \r > **Repository:** `mehr-platform-web`",
   "main": "index.js",
   "scripts": {
-    "lint": "next lint --fix",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "lint": "next lint",
+  "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Esmail2004r/mehr-platform-web.git"
