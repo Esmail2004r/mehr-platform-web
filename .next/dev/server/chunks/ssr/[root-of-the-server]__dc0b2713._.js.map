@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/tech%20plaza/mehr-platform-web/app/contact/page.tsx"],"sourcesContent":["import { ContactForm } from '@/components/ui/ContactForm';\r\n\r\nexport default function Contact() {\r\n  return (\r\n    <div className=\"max-w-4xl mx-auto px-4 py-16\">\r\n      <h1 className=\"text-3xl font-bold text-gray-900 mb-8\">Contact Us</h1>\r\n      <ContactForm />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAwC;;;;;;0BACtD,8OAAC;;;;;;;;;;;AAGP"}}]
-}
