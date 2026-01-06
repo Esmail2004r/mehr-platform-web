@@ -11,20 +11,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Setup Node.js 20 with npm cache
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: 'npm'
 
+      # Install dependencies
       - name: Install dependencies
         run: npm ci
+        working-directory: ./mehr-platform-web
 
+      # Run ESLint (show errors only)
       - name: Run ESLint
         run: npm run lint
+        working-directory: ./mehr-platform-web
 
-      - name: Run Build
+      # Build the project
+      - name: Build project
         run: npm run build
+        working-directory: ./mehr-platform-web
