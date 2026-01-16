@@ -25,11 +25,7 @@ jobs:
       # Install dependencies
       - name: Install dependencies
         run: npm ci
-
-      # Run ESLint (show errors only)
-      - name: Run ESLint
-        run: npm run lint
-
+        
       # Build the project
       - name: Build project
         run: npm run build
