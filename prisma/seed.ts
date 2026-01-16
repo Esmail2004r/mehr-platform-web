@@ -1,47 +1,40 @@
-import { PrismaClient, Role } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 
 const prisma = new PrismaClient();
 
 async function main() {
-  const password = await bcrypt.hash('Password123!', 10);
-
-  const institution = await prisma.institution.create({
+  // Admin
+  const adminPassword = await bcrypt.hash('Admin123!', 10);
+  await prisma.user.create({
     data: {
-      name: 'MEHR Demo Institution',
+      email: 'admin@mehr.com',
+      passwordHash: adminPassword,
+      role: 'ADMIN',
     },
   });
 
-  await prisma.user.createMany({
-    data: [
-      {
-        email: 'admin@mehr.com',
-        passwordHash: password,
-        role: Role.ADMIN,
-        name: 'MEHR Admin',
-      },
-      {
-        email: 'institution@mehr.com',
-        passwordHash: password,
-        role: Role.INSTITUTION,
-        institutionId: institution.id,
-        name: 'Institution Manager',
-      },
-      {
-        email: 'user@mehr.com',
-        passwordHash: password,
-        role: Role.USER,
-        name: 'Regular User',
-      },
-    ],
+  // Institution user
+  const institutionPassword = await bcrypt.hash('Institution123!', 10);
+  await prisma.user.create({
+    data: {
+      email: 'institution@mehr.com',
+      passwordHash: institutionPassword,
+      role: 'INSTITUTION',
+    },
   });
 
-  console.log('✅ Seed completed');
+  // Regular user
+  const userPassword = await bcrypt.hash('User123!', 10);
+  await prisma.user.create({
+    data: {
+      email: 'user@mehr.com',
+      passwordHash: userPassword,
+      role: 'USER',
+    },
+  });
 }
 
 main()
-  .catch((e) => {
-    console.error(e);
-    process.exit(1);
-  })
-  .finally(() => prisma.$disconnect());
+  .catch((e) => console.error(e))
+  .finally(async () => await prisma.$disconnect());
